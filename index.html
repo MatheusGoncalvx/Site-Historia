@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="tailwind.config.js"></script>
+  </script>
+  <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <title>Tarefa 3º Bimestre</title>
+</head>
+
+<body class="bg-gradient-to-b from-black to-yellow-100">
+  <header>
+
+    <!--Navbar do Site-->
+    <nav class="border-b-2  border-yellow-100 shadow-custom-yellow">
+      <div class="max-w-screen-xl flex flex-wrap items-center justify-center mx-auto p-4">
+        <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <span class="self-center text-2xl font-semibold whitespace-nowrap text-yellow-100 font-sans">
+            Matheus G. Lima
+          </span>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="gap-8">
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-4 p-10 sm:p-14 md:p-20" id="parte-1">
+      <!-- Coluna da Imagem -->
+      <div class="flex justify-center items-center">
+        <img src="matheus.jpg" alt="Minha Foto"
+          class="border-2 border-yellow-100 rounded-full w-[250px] h-[250px] sm:w-[300px] sm:h-[300px] md:w-[400px] md:h-[400px] p-4 shadow-custom-yellow">
+      </div>
+
+      <!-- Coluna do Texto -->
+      <div class="flex flex-col justify-center font-lato tracking-widest text-center md:text-left">
+        <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 text-yellow-100">
+          Hello Word! I'm <br>
+          <strong class="text-white">Matheus Gonçalves</strong>
+        </h1>
+        <p class="text-xs sm:text-sm md:text-base text-yellow-100">
+          Tenho 17 anos e estou no 3º ano NOVOTEC de Desenvolvimento de Sistemas.
+        </p>
+      </div>
+    </section>
+
+    <section class="font-lato gap-4 p-8 sm:p-14 md:p-20 mt-10 bg-black rounded-t-3xl" id="parte-2">
+      <h1 class="text-3xl sm:text-4xl font-bold text-center mb-4">
+        <strong class="text-white">Minha</strong>
+        <strong class="text-yellow-100">Cetia</strong>
+      </h1>
+
+      <div class="flex justify-center mt-6 sm:mt-10">
+        <ol
+          class="relative border-s border-yellow-100 max-w-2xl sm:max-w-3xl md:max-w-4xl mx-auto px-4 sm:px-6 md:px-8">
+          <li class="mb-8 sm:mb-10 ms-4">
+            <div class="absolute w-3 h-3 bg-yellow-200 rounded-full mt-1.5 -start-1.5 border border-white"></div>
+            <time class="mb-1 text-xs sm:text-sm font-normal leading-none text-gray-400">C</time>
+            <h3 class="text-base sm:text-lg font-semibold text-white">Competência: o executar as
+              tarefas em si</h3>
+            <p class="mb-4 text-sm sm:text-base font-normal text-white">3</p>
+          </li>
+
+          <li class="mb-8 sm:mb-10 ms-4">
+            <div class="absolute w-3 h-3 bg-yellow-200 rounded-full mt-1.5 -start-1.5 border border-white"></div>
+            <time class="mb-1 text-xs sm:text-sm font-normal leading-none text-gray-400">E</time>
+            <h3 class="text-base sm:text-lg font-semibold text-white">Esforço: se faz algo, tem algum esforço nisso?
+            </h3>
+            <p class="text-sm sm:text-base font-normal text-white">4</p>
+          </li>
+
+          <li class="mb-8 sm:mb-10 ms-4">
+            <div class="absolute w-3 h-3 bg-yellow-200 rounded-full mt-1.5 -start-1.5 border border-white"></div>
+            <time class="mb-1 text-xs sm:text-sm font-normal leading-none text-gray-400">T</time>
+            <h3 class="text-base sm:text-lg font-semibold text-white">Trabalho: faz ou não, algo de relevante na sala
+            </h3>
+            <p class="text-sm sm:text-base font-normal text-white">4</p>
+          </li>
+
+          <li class="mb-8 sm:mb-10 ms-4">
+            <div class="absolute w-3 h-3 bg-yellow-200 rounded-full mt-1.5 -start-1.5 border border-white"></div>
+            <time class="mb-1 text-xs sm:text-sm font-normal leading-none text-gray-400">I</time>
+            <h3 class="text-base sm:text-lg font-semibold text-white">Interesse: o quanto de interesse tem ou demonstra
+              ter</h3>
+            <p class="text-sm sm:text-base font-normal text-white">3</p>
+          </li>
+
+          <li class="ms-4">
+            <div class="absolute w-3 h-3 bg-yellow-200 rounded-full mt-1.5 -start-1.5 border border-white"></div>
+            <time class="mb-1 text-xs sm:text-sm font-normal leading-none text-gray-400">A</time>
+            <h3 class="text-base sm:text-lg font-semibold text-white">Atitude: como se porta na sala</h3>
+            <p class="text-sm sm:text-base font-normal text-white">3</p>
+          </li>
+        </ol>
+      </div>
+
+      <!--Resultado-->
+      <div class="bg-black border border-yellow-100 shadow-custom-yellow p-3 sm:p-5 rounded-full my-8 sm:my-10">
+        <p class="text-yellow-100 text-center text-lg sm:text-xl md:text-2xl font-lato tracking-widest">
+          <strong>Resultado: 3 + 4 + 4 + 3 + 3 = 17 / 2 = 8,5</strong>
+        </p>
+      </div>
+
+    </section>
+
+
+
+    <section class="bg-gradient-to-b from-black to-yellow-100 gap-4 p-6 sm:p-10 lg:p-20">
+      <h1 class="text-3xl sm:text-4xl font-bold font-lato text-center mb-4">
+        <strong class="text-white">O que eu aprendi</strong>
+        <strong class="text-yellow-100">em História?</strong>
+      </h1>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 p-6 sm:p-10 lg:p-20" id="parte-1">
+        <!-- Coluna da Imagem -->
+        <div class="flex justify-center items-center">
+          <img src="paraiso-fiscal.jpg" alt="Minha Foto"
+            class="border-2 border-yellow-100 rounded-full w-[200px] h-[200px] sm:w-[300px] sm:h-[300px] lg:w-[400px] lg:h-[400px] p-4 shadow-custom-yellow">
+        </div>
+
+        <!-- Coluna do Texto -->
+        <div class="flex flex-col justify-center font-lato tracking-widest">
+          <h1 class="text-3xl sm:text-4xl lg:text-6xl font-bold mb-4 text-yellow-100">Paraíso <strong
+              class="text-yellow-200">Fiscal</strong></h1>
+          <p class="text-xs sm:text-sm lg:text-base text-black">
+            <strong>
+              Aprendi que um paraíso fiscal é um país ou região com baixas ou inexistentes taxas de impostos, alta
+              confidencialidade financeira e regulamentação flexível. Isso atrai indivíduos e empresas que buscam
+              reduzir suas obrigações fiscais ou proteger seus ativos. Essas características podem facilitar a sonegação
+              de impostos e até a lavagem de dinheiro. No Brasil, os bancos não possuem sigilo bancário absoluto,
+              permitindo que a polícia tenha acesso a movimentações suspeitas de valores altos não declarados. No
+              entanto, em países com sigilo bancário rigoroso, as leis de outros países, como as do Brasil, não são
+              aplicáveis. Isso significa que, se o Brasil desejar acessar as movimentações financeiras de uma pessoa em
+              paraísos fiscais, não conseguirá, pois suas leis não se aplicam nesses países.
+            </strong>
+            <strong class="text-yellow-200">A seguir fotos de países que são paraísos fiscais.</strong>
+          </p>
+        </div>
+      </div>
+
+      <div id="default-carousel" class="relative max-w-full lg:max-w-[500px] mx-auto mb-10" data-carousel="slide">
+        <!-- Carousel wrapper -->
+        <div class="relative h-40 sm:h-56 lg:h-80 overflow-hidden rounded-lg">
+          <!-- Item 1 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="Andorra.jpg"
+              class="absolute block w-full h-full object-cover top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+              alt="Andorra">
+          </div>
+          <!-- Item 2 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="Monaco.jpg"
+              class="absolute block w-full h-full object-cover top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+              alt="Imagem 2">
+          </div>
+          <!-- Item 3 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="Chipre.jpg"
+              class="absolute block w-full h-full object-cover top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+              alt="Imagem 3">
+          </div>
+          <!-- Item 4 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="Liechtenstein.jpg"
+              class="absolute block w-full h-full object-cover top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+              alt="Imagem 4">
+          </div>
+          <!-- Item 5 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="Gibraltar.jpg"
+              class="absolute block w-full h-full object-cover top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+              alt="Imagem 5">
+          </div>
+        </div>
+        <!-- Slider indicators -->
+        <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+          <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1"
+            data-carousel-slide-to="0"></button>
+          <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2"
+            data-carousel-slide-to="1"></button>
+          <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3"
+            data-carousel-slide-to="2"></button>
+          <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4"
+            data-carousel-slide-to="3"></button>
+          <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5"
+            data-carousel-slide-to="4"></button>
+        </div>
+        <!-- Slider controls -->
+        <button type="button"
+          class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+          data-carousel-prev>
+          <span
+            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M5 1 1 5l4 4" />
+            </svg>
+            <span class="sr-only">Previous</span>
+          </span>
+        </button>
+        <button type="button"
+          class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+          data-carousel-next>
+          <span
+            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="m1 9 4-4-4-4" />
+            </svg>
+            <span class="sr-only">Next</span>
+          </span>
+        </button>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 p-6 sm:p-10 lg:p-20" id="parte-1">
+        <!-- Coluna do Texto -->
+        <div class="flex flex-col justify-center font-lato tracking-widest">
+          <h1 class="text-3xl sm:text-4xl lg:text-6xl font-bold mb-4 text-black"> Queda Muro de <strong
+              class="text-yellow-200"> Berlim</strong>
+          </h1>
+          <p class="text-xs sm:text-sm lg:text-base text-black">
+            <strong>
+              Aprendi que em 1989, a queda do Muro de Berlim simbolizou o fim do socialismo na Europa Oriental e o
+              colapso da Cortina de Ferro dividindo entre socialistas e capitalistas. Esse evento foi impulsionado por
+              protestos pacíficos e mudanças políticas em países como a Polônia e a Bulgária, que também abandonaram o
+              socialismo nesse ano. O Muro, que por décadas dividiu Berlim em Oriental e Ocidental, caiu como resultado
+              da
+              crescente pressão pública e das reformas políticas lideradas por Mikhail Gorbachev na União Soviética. A
+              queda do Muro abriu caminho para a reunificação alemã e a expansão da democracia e do capitalismo na
+              região,
+              marcando uma mudança profunda na geopolítica global.
+            </strong>
+          </p>
+        </div>
+
+        <!-- Coluna da Imagem -->
+        <div class="flex justify-center items-center">
+          <img src="Muro-Berlim.jpg" alt="Minha Foto"
+            class="border-2 border-yellow-100 rounded-full w-[200px] h-[200px] sm:w-[300px] sm:h-[300px] lg:w-[400px] lg:h-[400px] p-4 shadow-custom-yellow">
+        </div>
+      </div>
+    </section>
+
+
+    <section class="bg-gradient-to-b from-yellow-100 to-black gap-4 p-6 sm:p-10 lg:p-20">
+      <h1 class="text-3xl sm:text-4xl font-bold font-lato text-center mb-4">
+        <strong class="text-white">O que eu aprendi</strong>
+        <strong class="text-black">em Ética?</strong>
+      </h1>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 p-6 sm:p-10 lg:p-20">
+        <!-- Coluna da Imagem -->
+        <div class="flex justify-center items-center">
+          <img src="Spinoza.jpg" alt="Minha Foto"
+            class="border-2 border-yellow-100 rounded-full w-[200px] h-[200px] sm:w-[300px] sm:h-[300px] lg:w-[400px] lg:h-[400px] p-4 shadow-custom-yellow">
+        </div>
+
+        <!-- Coluna do Texto -->
+        <div class="flex flex-col justify-center font-lato tracking-widest">
+          <h1 class="text-3xl sm:text-4xl lg:text-6xl font-bold mb-4 text-yellow-100">Baruch <strong
+              class="text-yellow-200">Spinoza</strong></h1>
+          <p class="text-xs sm:text-sm lg:text-base text-black">
+            <strong>
+              Nasceu em 1632 e faleceu em 1677, o conceito principal de Spinoza era "A Potência de Agir" ou seja, quando
+              a
+              potência sobe, Spinoza chama de alegria, quando a potência baixa é a tristeza e quando a potência chega em
+              0
+              chama-se de morte. Para ele Deus não é um ser pessoal ou transcendente, mas sim a substância única e
+              infinita
+              que compõe tudo o que existe. Acreditava que a vida era uma série de encontros entre os seres viventes com
+              outros seres viventes e com o mundo.
+            </strong>
+          </p>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 p-6 sm:p-10 lg:p-20">
+        <!-- Coluna do Texto -->
+        <div class="flex flex-col justify-center font-lato tracking-widest">
+          <h1 class="text-3xl sm:text-4xl lg:text-6xl font-bold mb-4 text-yellow-100">Aristóteles</h1>
+          <p class="text-xs sm:text-sm lg:text-base text-white">
+            <strong>
+              Para Aristóteles tudo tinha um propósito por isso da sua frase "Na natureza não existe nada inútil (...)".
+              Sua
+              filosofia era o cosmos (a ordem de tudo), segundo ele o homem tem uma finalidade e sua missão é
+              encontra-la e
+              exerce-la com excelência e que a descoberta de sua missão era através do autoconhecimento.
+            </strong>
+          </p>
+        </div>
+
+        <!-- Coluna da Imagem -->
+        <div class="flex justify-center items-center">
+          <img src="Aristoteles.jpg" alt="Minha Foto"
+            class="border-2 border-yellow-100 rounded-full w-[200px] h-[200px] sm:w-[300px] sm:h-[300px] lg:w-[400px] lg:h-[400px] p-4 shadow-custom-yellow">
+        </div>
+      </div>
+    </section>
+
+
+    <!--quinta sessao-->
+    <section class="bg-gradient-to-t from-black to-black gap-4 p-20 font-lato">
+      <h1 class="text-4xl font-bold font-lato text-center mb-10">
+        <strong class="text-yellow-100">O que eu aprendi</strong>
+        <strong class="text-white">em Sociologia ?</strong>
+      </h1>
+
+      <div class="flex justify-center px-4">
+        <div class="block max-w-xs sm:max-w-sm p-4 sm:p-6 bg-black border border-yellow-100 rounded-lg text-center" id="card">
+          <h5 class="mb-2 text-xl sm:text-2xl font-bold tracking-widest text-yellow-100">Racismo & Injuria Racial</h5>
+          <p class="text-sm sm:text-base font-normal text-white">
+            Durante as aulas de sociologia, aprendi a diferença entre racismo e injuria racial. Racismo é quando um
+            indivíduo faz ou fala algo que inferiorize ou discrimine uma raça. Já a injuria se da quando a ofensa é
+            direcionada para alguém em específico. O crime de racismo não possui fiança.
+          </p>
+        </div>
+      </div>
+
+      <strong>
+        <div class="text-center font-bold text-white p-4 sm:p-6 lg:p-10">
+          <p>Falando um pouco sobre as minorias, são três as principais minorias no Brasil: Mulheres, Negros e LGBT's.
+            Escolhi
+            3 leis que achei bastante interessante na parte das mulheres.</p>
+        </div>
+      </strong>
+
+      <div class="flex justify-center items-center mt-10">
+        <ol class="items-center sm:flex">
+          <li class="relative mb-6 sm:mb-0">
+            <div class="flex items-center">
+              <div
+                class="z-10 flex items-center justify-center w-6 h-6 bg-yellow-100 rounded-full ring-0 ring-white sm:ring-8 shrink-0">
+                <svg class="w-2.5 h-2.5 text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor" viewBox="0 0 20 20">
+                  <path
+                    d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+                </svg>
+              </div>
+              <div class="hidden sm:flex w-full bg-yellow-100 h-0.5"></div>
+            </div>
+            <div class="mt-3 sm:pe-8">
+              <h3 class="text-lg font-semibold text-white">2002</h3>
+              <p class="text-base font-normal text-yellow-100">Em 2002 a falta de virgindade das mulheres deixou de ser
+                crime e motivo para anulação de casamento.</p>
+            </div>
+          </li>
+
+          <li class="relative mb-6 sm:mb-0">
+            <div class="flex items-center">
+              <div
+                class="z-10 flex items-center justify-center w-6 h-6 bg-yellow-100 rounded-full ring-0 ring-white sm:ring-8 shrink-0">
+                <svg class="w-2.5 h-2.5 text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor" viewBox="0 0 20 20">
+                  <path
+                    d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+                </svg>
+              </div>
+              <div class="hidden sm:flex w-full bg-yellow-100 h-0.5"></div>
+            </div>
+            <div class="mt-3 sm:pe-8">
+              <h3 class="text-lg font-semibold text-white">2006</h3>
+              <p class="text-base font-normal text-yellow-100">Ano de grande conquista para as mulheres, pois foi
+                instaurada a lei Maria da Penha, lei que tem como objetivo criminalizar a violência doméstica.</p>
+            </div>
+          </li>
+
+          <li class="relative mb-6 sm:mb-0">
+            <div class="flex items-center">
+              <div
+                class="z-10 flex items-center justify-center w-6 h-6 bg-yellow-100 rounded-full ring-0 ring-white sm:ring-8 shrink-0">
+                <svg class="w-2.5 h-2.5 text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor" viewBox="0 0 20 20">
+                  <path
+                    d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+                </svg>
+              </div>
+              <div class="hidden sm:flex w-full bg-yellow-100 h-0.5"></div>
+            </div>
+            <div class="mt-3 sm:pe-8">
+              <h3 class="text-lg font-semibold text-white">2021</h3>
+              <p class="text-base font-normal text-yellow-100">Fim da legítima defesa de honra, ou seja, antes se um
+                homem sentisse sua honra ferida por uma mulher, se ele a matasse não era considerado crime.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="bg-black gap-4 p-20 font-lato flex justify-center items-center">
+      <a href="https://ibb.co/nMJ5J0L" target="_blank">
+        <button
+          class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-white rounded-lg group bg-gradient-to-br from-red-200 via-red-300 to-yellow-200 group-hover:from-red-200 group-hover:via-red-300 group-hover:to-yellow-200 focus:ring-4 focus:outline-none focus:ring-red-100">
+          <span
+            class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-black rounded-md group-hover:bg-opacity-0">
+            Seus piores pesadelos
+          </span>
+        </button>
+      </a>
+    </section>
+
+
+
+
+
+
+  </main>
+</body>
+
+</html>
